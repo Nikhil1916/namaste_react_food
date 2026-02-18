@@ -1,0 +1,122 @@
+@import "tailwindcss";
+/* 
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header > div > ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 10px;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+
+.container {
+    padding: 10px;
+}
+
+
+
+.card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px 0px;
+    background-color: #d0d0d096;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card:hover {
+    border: 2px solid gray;
+
+}
+
+.res-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.schimmer-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px 10px;
+    background: #f0f0f0;
+}
+
+.schimmer-lined {
+    height: 16px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    background-color: #ddd;
+}
+
+.schimmer-lined:nth-child(1) {
+    height: 120px;
+}
+
+.schimmer-lined:nth-child(2) {
+    width: 80%;
+}
+
+.schimmer-lined:nth-child(3) {
+    width: 60%;
+}
+
+.schimmer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.rest-info > *, 
+.accordian-head  {
+    text-align: center;
+}
+
+.accordian {
+    width: 70%;
+}
+
+.accordian-body {
+    opacity: 0;
+    background-color: #edeeef;
+    padding: 10px;
+    display: none;
+}
+
+.accordian-body.active {
+    opacity: 1;
+    display: block;
+}
+
+
+.accordian {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.accordian-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.accordian-head {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.content-accordian-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+} */
