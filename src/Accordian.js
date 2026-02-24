@@ -19,7 +19,7 @@ const Accordian = (
     const addItemInCart = (_) => {
         dispatch(addItem(_));
     }
-    console.log(data);
+    // console.log(data);
     return (
     <div className="flex justify-center">
         <div className="accordian m-3 cursor-pointer w-[70%] text-center shadow-lg p-2 bg-gray-100">
@@ -32,12 +32,12 @@ const Accordian = (
                 </div>
             }
             {
-                !children && <div className={cx("accordian-body",{["hidden"]:!isOpen} ,{["block"]:isOpen})}>
+                !children && isOpen && <div className={cx("accordian-body",{["hidden"]:!isOpen} ,{["block"]:isOpen})}>
                     {
                         data?.map(_=>{
                             return(
                             
-                                <div className="content-accordian-body flex justify-between p-4 bg-gray-100 items-stretch border-b last:border-none" key={_.id}>
+                                <div className="content-accordian-body flex justify-between p-4 bg-gray-100 items-stretch border-b last:border-none" key={_.id} data-testid="acc-header">
                                     <div className="flex flex-col text-left p-2">
                                     <span>{_.name} {"("+formatCurrency(_.price/100)+")"}</span>
                                     <span className="text-gray-600">{_.description}</span>

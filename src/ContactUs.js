@@ -1,5 +1,14 @@
 const Contact = () => {
-    return (<h1>Contact Us</h1>)
+    return (
+        <div>
+            <h1>Contact Us</h1>
+            <form>
+                <input type="text" placeholder="name" />
+                <input type="text" placeholder="message" />
+                <button>Submit</button>
+            </form> 
+        </div>
+    )
 }
 
 export default Contact;

@@ -19,23 +19,13 @@ const Cart = () => {
           return (
             <div
               className="content-accordian-body flex justify-between p-4 bg-gray-100 items-stretch border-b last:border-none"
-              key={_.id+i+""}
+              key={_.id+i+""} data-testid="cart-items"
             >
               <div className="flex flex-col text-left p-2">
                 <span>
                   {_.name} {"(" + formatCurrency(_.price / 100) + ")"}
                 </span>
                 <span className="text-gray-600">{_.description}</span>
-              </div>
-              {/* <div>
-                                        </div> */}
-              <div className="flex items-center">
-                <button
-                  className="p-2 mx-2 bg-black rounded text-white text-sm cursor-pointer"
-                  onClick={() => addItemInCart(_)}
-                >
-                  Add To Cart
-                </button>
               </div>
             </div>
           );

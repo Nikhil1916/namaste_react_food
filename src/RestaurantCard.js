@@ -20,14 +20,10 @@ export const WithLabel = (WrappedComponent) => {
 };
 
 const RestaurantCard = ({data}) => {
-    console.log("rest card rerednered");
-    // console.log(props);
     const {name, costForTwo,totalRatingsString} = data;
-    useEffect(()=>{
-        // console.log("card use effect");
-    },[])
+
     return (
-        <Link to={"restaurant/"+data?.id}>
+        <Link to={"restaurant/"+data?.id} data-testid="rest-card">
         <div className='card bg-gray-300 p-3'>
             <img src={FOOD_IMG} />
             <div className='details'>

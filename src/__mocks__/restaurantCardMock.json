@@ -1,0 +1,26 @@
+{
+    "id": "890123",
+    "name": "South Spice",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/6def0f0f-9e6c-45c0-b5e6-05af750f27b5_795906.JPG",
+    "locality": "Jayanagar",
+    "areaName": "South Bangalore",
+    "costForTwo": "₹300 for two",
+    "cuisines": [
+        "South Indian",
+        "Dosa",
+        "Idli"
+    ],
+    "avgRating": 4.5,
+    "avgRatingString": "4.5",
+    "totalRatingsString": "11K+ ratings",
+    "veg": true,
+    "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 3,
+        "slaString": "25 mins"
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "35% OFF",
+        "subHeader": "UPTO ₹70"
+    }
+}

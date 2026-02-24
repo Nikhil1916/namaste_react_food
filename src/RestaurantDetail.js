@@ -7,7 +7,7 @@ const RestaurantDetail = () => {
     const params = useParams();
     const {menu, restInfo} = useRestaurantMenu(params?.id);
     const [isOpenIdx, setIsOpenIdx] = useState(0);
-    console.log(menu);
+    // console.log(menu);
     return (
         <div>
             <div className="rest-info text-center">
